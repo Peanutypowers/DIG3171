@@ -20,6 +20,8 @@ yourself to make the connections to truly understand the meaning behind what you
   
 ![MLK Voyant Word Bubble](MLKVoyantWordBubble.png)
 ![MLK Voyant Most Common Words](MLKVoyantWordCount.png)
+
  # **Copilot**
+ 
 ![MLK Copilot Word Bubble](MLKCopilotWordBubble.png)
 ![MLK Copilot Most Response](MLKCopilotResponse.png)
