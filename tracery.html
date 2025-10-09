@@ -126,12 +126,19 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
         </div>
     <script> /* In the var immediately below, copy-paste your Tracery/CBDQ JSON between the {} brackets */
     var obj = {
-  "origin": ["My name is #name# and my pronouns are #pronoun1#/#pronoun2#! My major is #major# and I have been at UCF for #years# years."],
+  "origin": ["My name is #name# and my pronouns are #pronoun1#/#pronoun2#! My major is #major# and I have been at UCF for #years# years.",
+			 "Hello! I'm #name# and I use #pronoun1#/#pronoun2#. I like to #hobby# and I'm a #major# major!",
+			 "Hey... I go by #name#. What's yours? I've lived in #place# for #years# years. I wouldnt want to live anywhere else",
+			 "I cannot wait for this #content# show to begin! My name is #name# by the way. It is a pleasure to meet you!"],
+			 
   "pronoun1": ["He", "She", "They", "It", "Fae", "Xe"],
   "pronoun2": ["Him", "Her", "Them", "Its", "Faer", "Xim"],
   "name": ["Jermy", "Dylan", "Ace", "Tim", "Sarah"],
   "major": ["CS", "Physics", "Math", "Digital Media", "Biomed"],
-  "years": ["one", "two", "three", "four", "five"]
+  "years": ["one", "two", "three", "four", "five"],
+  "hobby": ["run", "cosplay", "code", "play DnD", "dance", "bake", "read", "knit"],
+  "place": ["Oralndo", "Tampa", "Atlanta", "New York City", "Salem", "Boston", "Farmington"]
+  "content": ["cosplay", "coding", "DnD", "dancing", "baking", "reading", "knitting", "sewing"]
 }
 function generateString(rule) {
   return expandRule(rule);
