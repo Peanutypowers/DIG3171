@@ -1,8 +1,3 @@
----
-layout: default
-title: Research Project
----  
-
 <style>
   .works-cited {
     margin-left: 2em;
@@ -10,6 +5,11 @@ title: Research Project
     line-height: 1.5;
   }
 </style>
+
+---
+layout: default
+title: Research Project
+---  
 
 # My Final Research Project  
 
