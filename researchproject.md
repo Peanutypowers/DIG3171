@@ -3,6 +3,14 @@ layout: default
 title: Research Project
 ---  
 
+<style>
+  .works-cited {
+    margin-left: 2em;
+    text-indent: -2em;
+    line-height: 1.5;
+  }
+</style>
+
 # My Final Research Project  
 
 This is a big project, and you definitely want a place to show it off! Here's a suggested layout for that (but feel free to display your work however you prefer).
@@ -32,18 +40,3 @@ If it is easier to embed your project in an HTML file, just change the .md on th
 <p class="works-cited">Pulliam, Mark S. “The Exploitation of Labor and Other Union Myths.” The Independent Review, vol. 24, no. 3, 2019, pp. 409–31. JSTOR, http://www.jstor.org/stable/45238864. Accessed 29 Oct. 2025.</p>
 </div>
 
-<style>
-  .works-cited {
-    margin-left: 2em;
-    text-indent: -2em;
-    line-height: 1.5;
-  }
-</style>
-
-<p class="works-cited">
-  Lastname, Firstname. <em>Book Title</em>. Press, 2025.
-</p>
-
-<p class="works-cited">
-  Doe, Jane. "Journal Article.” <em>Journal Name</em>, vol. 15, no. 2, 2025, pp. 45–67.
-</p>
