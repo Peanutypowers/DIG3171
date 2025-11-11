@@ -24,13 +24,13 @@ If it is easier to embed your project in an HTML file, just change the .md on th
 </p>
 
 # Works Cited
-
-<p class="works-cited">Aidt, Toke, and Zafiris Tzannatos. Unions and Collective Bargaining: Economic Effects in a Global Environment. 2002, www.researchgate.net/profile/Zafiris-Tzannatos/publication/30483887_Unions_and_Collective_Bargaining_Economic_Effects_in_A_Global_Environment/links/5cda8241299bf14d959518d0/Unions-and-Collective-Bargaining-Economic-Effects-in-A-Global-Environment.pdf.</p>
-<p class="works-cited">Alberti, Gabriella, et al. “Organising Migrants as Workers or as Migrant Workers? Intersectionality, Trade Unions and Precarious Work.” The International Journal of Human Resource Management, vol. 24, no. 22, Oct. 2013, pp. 4132–48. https://doi.org/10.1080/09585192.2013.845429.</p>
-<p class="works-cited">Boucher, Anna. “‘What Is Exploitation and Workplace Abuse?’ a Classification Schema to Understand Exploitative Workplace Behaviour Towards Migrant Workers.” New Political Economy, vol. 27, no. 4, Oct. 2021, pp. 629–45. https://doi.org/10.1080/13563467.2021.1994541.</p>
-<p class="works-cited">Braekkan, Kristian F., and Victoria “Tori” Sowa. “Exploitation by Economic Necessity.” SAGE Open, vol. 5, no. 4, Oct. 2015, https://doi.org/10.1177/2158244015610549.</p>
-<p class="works-cited">Pulliam, Mark S. “The Exploitation of Labor and Other Union Myths.” The Independent Review, vol. 24, no. 3, 2019, pp. 409–31. JSTOR, http://www.jstor.org/stable/45238864. Accessed 29 Oct. 2025.</p>
-
+<div style=“text-indent: -100px; padding-left: 100px;”>
+	<p class="works-cited">Aidt, Toke, and Zafiris Tzannatos. Unions and Collective Bargaining: Economic Effects in a Global Environment. 2002, www.researchgate.net/profile/Zafiris-Tzannatos/publication/30483887_Unions_and_Collective_Bargaining_Economic_Effects_in_A_Global_Environment/links/5cda8241299bf14d959518d0/Unions-and-Collective-Bargaining-Economic-Effects-in-A-Global-Environment.pdf.</p>
+	<p class="works-cited">Alberti, Gabriella, et al. “Organising Migrants as Workers or as Migrant Workers? Intersectionality, Trade Unions and Precarious Work.” The International Journal of Human Resource Management, vol. 24, no. 22, Oct. 2013, pp. 4132–48. https://doi.org/10.1080/09585192.2013.845429.</p>
+	<p class="works-cited">Boucher, Anna. “‘What Is Exploitation and Workplace Abuse?’ a Classification Schema to Understand Exploitative Workplace Behaviour Towards Migrant Workers.” New Political Economy, vol. 27, no. 4, Oct. 2021, pp. 629–45. https://doi.org/10.1080/13563467.2021.1994541.</p>
+	<p class="works-cited">Braekkan, Kristian F., and Victoria “Tori” Sowa. “Exploitation by Economic Necessity.” SAGE Open, vol. 5, no. 4, Oct. 2015, https://doi.org/10.1177/2158244015610549.</p>
+	<p class="works-cited">Pulliam, Mark S. “The Exploitation of Labor and Other Union Myths.” The Independent Review, vol. 24, no. 3, 2019, pp. 409–31. JSTOR, http://www.jstor.org/stable/45238864. Accessed 29 Oct. 2025.</p>
+</div>
 
 <style>
   .works-cited {
