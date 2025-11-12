@@ -1,8 +1,4 @@
----
-layout: default
-title: Research Project
----
-{% include nav.html %}
+
 
 <!DOCTYPE html>
 
@@ -26,9 +22,16 @@ title: Research Project
     font-size: 1.2em;
     margin-bottom: 20px;
   }
-  
-  
+
 </style>
+
+<html>
+<body>
+---
+layout: default
+title: Research Project
+---
+{% include nav.html %}
 
 <h1>My Final Research Project</h1>  
 
@@ -36,8 +39,9 @@ title: Research Project
 
 <div class="quiz">
   <div class = "question"></div>
+  <div class = "choices"></div>
   <div class = "answers"></div>
-  <div class = "score">0</div>
+  <div class = "result"><span class = "score">0</span></div>
   <button class = "restart">Restart</button> 
 </div>
 
@@ -62,5 +66,6 @@ title: Research Project
 <p class="works-cited">Boucher, Anna. “‘What Is Exploitation and Workplace Abuse?’ a Classification Schema to Understand Exploitative Workplace Behaviour Towards Migrant Workers.” New Political Economy, vol. 27, no. 4, Oct. 2021, pp. 629–45. https://doi.org/10.1080/13563467.2021.1994541.</p>
 <p class="works-cited">Braekkan, Kristian F., and Victoria “Tori” Sowa. “Exploitation by Economic Necessity.” SAGE Open, vol. 5, no. 4, Oct. 2015, https://doi.org/10.1177/2158244015610549.</p>
 <p class="works-cited">Pulliam, Mark S. “The Exploitation of Labor and Other Union Myths.” The Independent Review, vol. 24, no. 3, 2019, pp. 409–31. JSTOR, http://www.jstor.org/stable/45238864. Accessed 29 Oct. 2025.</p>
-
+</body>
 <script src="quizScript.js"></script>
+</html>
