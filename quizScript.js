@@ -1,4 +1,4 @@
-const questions = [
+const quizQuestions = [
   {
     question: "name is asked by possessivePronoun boss name to skip possessivePronoun lunch break until pronoun finishes her projectType. What type of workplace violation is this?", 
     choices: ["Economic violation", "Safety violation", "Hour entitlement violation", "Denial of leave violation"],
@@ -70,24 +70,24 @@ const scoreEl = document.getElementById('score');
 const restart = document.querySelector('.restart');
 
 function loadQuestion() {
-  if(currentQuestion >= quizData.length) {
+  if(currentQuestion >= quizQuestions.length) {
     endQuiz();
     return;
   }
-  const currentQuiz = quizData[currentQuesiton];
+  const currentQuiz = quizQuestions[currentQuesiton];
   questionEl.textContent = currentQuiz.question;
   choicesEl.innerHTML = '';
   currentQuiz.answers.forEach(choice => {
     const button = document.createElement('button');
     button.classList.add('choice');
     button.textContent = choice;
-    button.onClick = () => grader(answer);
+    button.onClick = () => grader(choice);
     answerEl.appendChild(button);
   });
 }
 
 function grader(selection) {
-  if(selection === quizData[currentQuestion].answer) {
+  if(selection === quizQuestions[currentQuestion].answer) {
     score++;
   }
   currentQuestion++;
