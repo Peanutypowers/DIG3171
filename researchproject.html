@@ -25,6 +25,46 @@ title: Research Project
     font-size: 1.2em;
     margin-bottom: 20px;
   }
+   .choices {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .choice {
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+  }
+
+  .choice:hover {
+      background-color: #007bff;
+      color: #fff;
+  }
+
+  .result {
+      font-size: 1.5em;
+      color: #4caf50;
+      display: none;
+  }
+
+  .restart {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+      display: none;
+  }
+
+  .restart-btn:hover {
+      background-color: #0056b3;
+  }
 
 </style>
 
