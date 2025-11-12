@@ -57,7 +57,7 @@ const quizQuestions = [
     question: "When creating a union, your coworker name asks how unions gain bargaining power over management. The correct reply is:", 
     choices: ["Unions gain leverage over management by threatening collective action and slowing production.", "Unions gain leverage over management by appealing to their sense of humanity.", "Unions gain leverage over management by not going to the after-work pizza party.", "Unions gain leverage over management by stripping management’s benefits."],
     answer:
-  },
+  }
   
 ];
 /* options = choice*/
