@@ -1,5 +1,3 @@
-"use strict";
-
 /* Generates a random question */
 
 const POS_PRONOUN = "#possessivePronoun#";
